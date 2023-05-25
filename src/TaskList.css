@@ -1,0 +1,178 @@
+.todolist{
+    background:peachpuff;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.heading{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
+.sub-heading{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
+.addingtext{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.addingtext h2{
+    color: white;
+    
+
+}
+.h1-con{
+    border-radius: 5px;
+    }
+.addingtext input{
+    height: 30px;
+    width:250px;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.addingtext input::placeholder{
+    color: #999999;
+}
+.addingtext button{
+    height: 36px;
+    width:75px;
+    border:none;
+    background:blue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.lists{
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    height: auto;
+}
+.list1,.list2,.list3{
+height: auto;
+    border:1px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 8px 25px 8px 25px;
+    box-shadow: rgba(190, 176, 176, 0.24) 0px 3px 8px;;
+    background-color: aliceblue;
+}
+.list1{
+    height:300px auto;
+}
+.save-inp{
+    height: 30px;
+    width:250px;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.edit-inp{
+    height: 30px;
+    width:250px;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.list1 h1{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    height: auto;
+    background: rgb(163, 204, 250);
+
+}
+.list2 h1{
+    color: black;
+    width: 90%;
+    height: auto;
+    background: rgb(163, 204, 250);
+
+}
+.list3 h1{
+    color: black;
+    width: 90%;
+    height: auto;
+    background: rgb(163, 204, 250);
+
+}
+
+.export-btn{
+    background: rgb(84, 233, 84);
+    border: none;
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.export-btn:hover{
+    background: rgb(29, 224, 29);
+}
+.edit{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+.save{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.delete{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+cursor: pointer;
+margin-right: 10px;
+}
+select {
+    background: rgb(194, 222, 209);
+    border: 3px solid rgb(84, 73, 116);
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+  }
