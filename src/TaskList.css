@@ -126,7 +126,7 @@ height: auto;
     color: white;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     cursor: pointer;
     border-radius: 8px;
 }
@@ -175,4 +175,24 @@ select {
     height: 30px;
     border: none;
     cursor: pointer;
+  }
+  @media screen and (max-width: 1100px){
+    .lists{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .list1,.list2,.list3{
+        width: 80%;
+    }
+  }
+  @media screen and (max-width: 850px){
+    .addingtext{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
   }
